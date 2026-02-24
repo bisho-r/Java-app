@@ -15,7 +15,7 @@ pipeline {
     }
 
     environment {
-        APP_NAME = 'java-app'
+        APP_NAME = 'Java-app'
         CI_IMAGE = "${APP_NAME}:ci-${env.BUILD_NUMBER}"
     }
 
