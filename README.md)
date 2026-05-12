@@ -1,0 +1,33 @@
+# Java Spring Boot Application - CI/CD Practice
+
+**Project**: Student Management System (Spring Boot + Maven)
+
+### Tech Stack
+- **Backend**: Java 21 / Spring Boot 3
+- **Build Tool**: Maven
+- **CI/CD**: Jenkins (Pipeline)
+- **Containerization**: Docker
+- **Database**: MySQL / H2 (in-memory)
+
+### Features
+- REST APIs for Student CRUD operations
+- Jenkins Pipeline for Build → Test → Docker Image → Deploy
+- Dockerized application
+
+### Prerequisites
+- JDK 21+
+- Maven
+- Docker
+- Jenkins (for CI/CD)
+
+### How to Run Locally
+
+```bash
+# 1. Clone the repository
+git clone https://github.com/bisho-r/Java-app.git
+cd Java-app
+
+# 2. Run the application
+./mvnw spring-boot:run
+
+# Application will start at http://localhost:8080
